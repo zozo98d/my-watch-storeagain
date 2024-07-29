@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Watch Store</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>My Watch Store</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Kezdőlap</a></li>
+                    <li><a href="#about">Rólunk</a></li>
+                    <li><a href="#products">Termékek</a></li>
+                    <li><a href="#contact">Kapcsolat</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home">
+        <div class="container">
+            <h2>Üdvözöljük a My Watch Store-ban</h2>
+            <p>Fedezze fel exkluzív luxusóráink gyűjteményét.</p>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2>Rólunk</h2>
+            <p>A My Watch Store prémium időmérők válogatott gyűjteményét kínálja neves márkáktól.</p>
+        </div>
+    </section>
+
+    <section id="products">
+        <div class="container">
+            <h2>Termékeink</h2>
+            <div class="product-grid">
+                <div class="product">
+                    <img src="watch1.jpg" alt="Óra 1">
+                    <h3>Óra Modell 1</h3>
+                    <p>499 USD</p>
+                </div>
+                <div class="product">
+                    <img src="watch2.jpg" alt="Óra 2">
+                    <h3>Óra Modell 2</h3>
+                    <p>699 USD</p>
+                </div>
+                <!-- További termékek hozzáadása szükség szerint -->
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Kapcsolat</h2>
+            <p>Vegye fel velünk a kapcsolatot bármilyen kérdés esetén.</p>
+            <form action="submit_form.php" method="post">
+                <label for="name">Név:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Üzenet:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Küldés</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 My Watch Store. Minden jog fenntartva.</p>
+        </div>
+    </footer>
+</body>
+</html>
